@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-12 md:px-24;
+  }
+
+  .section-title {
+    @apply font-bold font-kufam text-4xl md:text-[54px] text-title;
+  }
+
+  .section-description {
+    @apply font-semibold font-nunito text-lg md:text-2xl text-description;
+  }
+}

@@ -1,0 +1,8 @@
+export { default as Hero } from './Hero'
+export { default as About } from './About'
+export { default as Package } from './Package'
+export { default as Airplane } from './Airplane'
+export { default as Facilities } from './Facilities'
+export { default as Testimonial } from './Testimonial'
+export { default as Gallery } from './Gallery'
+export { default as Footer } from './Footer'
