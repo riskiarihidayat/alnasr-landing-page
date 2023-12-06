@@ -20,4 +20,12 @@
   .section-description {
     @apply font-semibold font-nunito text-lg md:text-2xl text-description;
   }
+
+  .nav-links {
+    @apply font-nunito font-medium text-base md:text-xl text-[#525252] duration-500 hover:text-yellow;
+  }
+
+  .nav-icon {
+    @apply text-dark-grey-text text-base;
+  }
 }
