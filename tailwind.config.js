@@ -15,9 +15,12 @@ export default {
         'description': '#454545',
         'light-grey-text': '#1DA599',
         'dark-grey-text': '#3F3F3F',
-        'bg': '#F3FFFE',
+        'white-bg': '#F3FFFE',
         'yellow': '#FFC265',
         'light-grey': '#C1FFFA',
+      },
+      boxShadow: {
+        '3xl': '0px 4px 20px 0px rgba(29, 165, 153, 0.15)',
       },
     },
   },

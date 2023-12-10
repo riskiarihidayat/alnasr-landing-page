@@ -19,7 +19,7 @@ const Navbar = () => {
           <li><a href="#gallery" className='nav-links'>Gallery</a></li>
         </ul>
         <div className='hidden md:flex'>
-          <a href="#" className='py-4 px-9 bg-yellow rounded-md text-dark-grey-text md:text-xls'>Contact us</a>
+          <a href="#" className='py-4 px-10 bg-yellow rounded-md text-dark-grey-text md:text-xls'>Contact us</a>
         </div>
         <div onClick={() => setisOpen(!isOpen)} className='md:hidden'>
         {
