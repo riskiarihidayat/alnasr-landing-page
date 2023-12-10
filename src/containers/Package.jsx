@@ -12,7 +12,7 @@ import { MdFastfood } from 'react-icons/md'
 
 const Package = () => {
   return (
-    <section id='package' className='section-padding'>
+    <section id='package' className='section-padding mb-24'>
       <div className='mb-10 md:mb-[72px] md:px-40 text-center'>
         <h1 className='section-title leading-[140%]'>Al Nasr Special Umrah and Hajj Packages</h1>
         <p className='section-description md:px-20'>Choose your package according to your needs, guaranteed cheap and complete</p>
