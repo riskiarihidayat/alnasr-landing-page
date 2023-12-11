@@ -12,11 +12,11 @@ const PackageCard = ({ img, type, typeDes, title, price, service1, service2, ser
         <h3 className='section-title text-base mb-2'>{title}</h3>
         <p className='section-title text-xl mb-5'>{price}</p>
         <ul className='flex items-center gap-5 mb-10'>
-          <li className='about-icon text-xl'>{service1}</li>
-          <li className='about-icon text-xl'>{service2}</li>
-          <li className='about-icon text-xl'>{service3}</li>
-          <li className='about-icon text-xl'>{service4}</li>
-          <li className='about-icon text-xl'>{service5}</li>
+          <li className='icon text-xl'>{service1}</li>
+          <li className='icon text-xl'>{service2}</li>
+          <li className='icon text-xl'>{service3}</li>
+          <li className='icon text-xl'>{service4}</li>
+          <li className='icon text-xl'>{service5}</li>
         </ul>
         <a href="#" className='py-2 px-8 md:py-4 md:px-10 border-yellow border-[1px] rounded-md font-nunito font-semibold text-yellow text-sm md:text-xl'>View Detail</a>
       </div>

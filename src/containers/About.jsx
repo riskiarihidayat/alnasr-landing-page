@@ -15,19 +15,19 @@ const About = () => {
         <ul className='flex flex-col gap-5 items-start mb-10'>
           {/* nambahin list di about */}
           <li className='flex items-center gap-6'>
-            <FaPlaneDeparture className='about-icon' />
+            <FaPlaneDeparture className='icon' />
             <p className='section-description'>Flight Jakarta Saudi - Saudi Jakarta</p>
           </li>
           <li className='flex items-center gap-6'>
-            <HiTicket className='about-icon' />
+            <HiTicket className='icon' />
             <p className='section-description'>Tickets are included in the cost</p>
           </li>
           <li className='flex items-center gap-6'>
-            <RiHotelFill className='about-icon' />
+            <RiHotelFill className='icon' />
             <p className='section-description'>Comfortable hotel with a rating of 4</p>
           </li>
           <li className='flex items-center gap-6'>
-            <GrVisa className='about-icon' />
+            <GrVisa className='icon' />
             <p className='section-description'>We cover the Visa Fee and it's Included</p>
           </li>
         </ul>

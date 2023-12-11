@@ -9,7 +9,7 @@ import { FaStar } from 'react-icons/fa'
 
 const Airplane = () => {
   return (
-    <section className='section-padding mb-32'>
+    <section className='section-padding mb-32 md:mb-[187px]'>
       <div className='flex flex-col justify-center items-center text-center mb-10'>
         <h2 className='section-title text-2xl md:text-[32px] mb-[10px]'>Airways Accomadation</h2>
         <p className='section-description mb-5 px-5'>We cooperate with several airlines for Umrah and Hajj </p>

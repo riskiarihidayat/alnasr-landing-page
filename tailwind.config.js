@@ -21,6 +21,7 @@ export default {
       },
       boxShadow: {
         '3xl': '0px 4px 20px 0px rgba(29, 165, 153, 0.15)',
+        'facilities': '0px 4px 20px 0px rgba(0, 0, 0, 0.12)',
       },
     },
   },
