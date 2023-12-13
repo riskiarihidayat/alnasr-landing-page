@@ -26,6 +26,15 @@ export default {
       gridTemplateColumns: {
         '1': 'repeat(4, 1fr)',
       },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 15s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      },
     },
   },
   plugins: [],

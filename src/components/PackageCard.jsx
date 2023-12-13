@@ -1,9 +1,12 @@
 import React from 'react'
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+
 const PackageCard = ({ img, type, typeDes, title, price, service1, service2, service3, service4, service5 }) => {
   return (
     <div className='py-5 pl-4 md:py-7 md:pl-7 rounded-md bg-white-bg shadow-3xl'>
-      <img src={img} alt="Umrah" className='mb-4 pr-7 w-[311px]' />
+      <LazyLoadImage src={img} alt="Umrah" className='mb-4 pr-7 w-[311px]' effect='blur' />
       <div className='text-start'>
         <div className='flex justify-between items-center mb-5'>
           <p className='font-nunito text-yellow text-sm md:text-xl'>{type}</p>

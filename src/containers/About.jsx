@@ -1,6 +1,8 @@
 import React from 'react'
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import about from './../assets/about.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { FaPlaneDeparture } from 'react-icons/fa'
 import { HiTicket } from 'react-icons/hi2'
 import { RiHotelFill } from 'react-icons/ri'
@@ -37,7 +39,7 @@ const About = () => {
         </div>
       </div>
       <div className='md:flex-1 md:order-1 md:flex md:justify-end text-center'>
-        <img src={about} alt="Alnsar" className='w-[548px]' />
+        <LazyLoadImage src={about} alt="Alnsar" className='w-[548px]' effect='blur' />
       </div>
     </section>
   )

@@ -1,12 +1,14 @@
 import React from 'react'
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { FaStar } from 'react-icons/fa'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const TestimonialCard = ({ img, rating, cusPackage, cusName, cusRatings }) => {
   return (
     <div className='flex justify-center items-start gap-6 p-5 rounded-2xl bg-white-bg shadow-facilities max-w-[476px]'>
       <div>
-        <img src={img} alt="Customer" className='w-[100px] mb-4' />
+        <LazyLoadImage src={img} alt="Customer" className='w-[100px] mb-4' effect='blur' />
         <p className='flex items-center gap-[6px] font-nunito font-semibold text-sm text-light-grey-text py-[5px] px-[10px] rounded-full bg-light-grey'>
           <FaStar className='text-yellow' />
           {rating}

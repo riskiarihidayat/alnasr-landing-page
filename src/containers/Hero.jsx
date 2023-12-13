@@ -1,6 +1,8 @@
 import React from 'react'
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import hero from './../assets/hero.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const Hero = () => {
   return (
@@ -14,7 +16,7 @@ const Hero = () => {
         <a href="#" className='py-2 px-8 md:py-4 md:px-10 bg-yellow rounded-md text-dark-grey-text text-sm md:text-xl'>Contact us</a>
       </div>
       <div className='md:flex-1 md:flex md:justify-end text-center'>
-        <img src={hero} alt="Abraj Al Bait Tower" className='w-[548px]' />
+        <LazyLoadImage src={hero} alt="Abraj Al Bait Tower" className='w-[548px]' effect='blur' />
       </div>
     </section>
   )

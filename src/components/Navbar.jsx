@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import logo from './../assets/logo.svg'
 import { FaBars, FaXmark } from 'react-icons/fa6'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const Navbar = () => {
 
@@ -10,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className='section-padding fixed top-0 right-0 left-0 z-50 py-4 md:pt-6 bg-white'>
       <div className='flex justify-between items-center'>
-        <img src={logo} alt="AlNasr Logo" className='w-16 md:w-[100px]' />
+        <LazyLoadImage src={logo} alt="AlNasr Logo" className='w-16 md:w-[100px]' effect='blur' />
         <ul className='hidden md:flex justify-center items-center gap-8'>
           <li><a href="#" className='nav-links text-yellow'>Home</a></li>
           <li><a href="#about" className='nav-links'>About Us</a></li>
@@ -44,11 +46,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-//  <div className={`absolute left-0 right-0 bottom-0 bg-white w-full h-screen ease-in-out duration-700 -z-10 md:flex md:items-center md:w-0 md:relative md:top-0`}>
-//           {/* selesaikan responive navbar untuk desktop */}
-//           
-//           <div className='text-center'>
-//             <a href="#" >Contact us</a>
-//           </div>
-//         </div> 
