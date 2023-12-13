@@ -10,7 +10,7 @@ import { GrVisa } from 'react-icons/gr'
 
 const About = () => {
   return (
-    <section id='about' className='section-padding pt-20 md:pt-32 w-full md:flex md:items-center md:gap-11 mb-40 md:mb-52'>
+    <section id='about' className='section-padding pt-20 md:pb-[120px] md:pt-32 w-full md:flex md:items-center md:gap-11 mb-20 md:mb-52 bg-white-bg'>
       <div className='md:flex-1 md:order-2 flex flex-col justify-center items-center md:items-start text-center md:text-start mb-10'>
         <h1 className='section-title mb-2 md:mb-4 md:leading-[140%]'>A Wonderful Agency To Fulfill your Dreams</h1>
         <p className='section-description mb-10 md:mb-6'>The Hajj and Umrah pilgrimages are smooth, the heart is clean. we have been trusted since 2006 and have obtained a license from SAUDI ARABIA to become this travel agency.</p>
