@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className='section-padding fixed top-0 right-0 left-0 z-50 py-4 md:pt-6 bg-white'>
       <div className='flex justify-between items-center'>
-        <img src={logo} alt="AlNasr Logo" className='w-16 md:w-[143px]' />
+        <img src={logo} alt="AlNasr Logo" className='w-16 md:w-[100px]' />
         <ul className='hidden md:flex justify-center items-center gap-8'>
           <li><a href="#" className='nav-links text-yellow'>Home</a></li>
           <li><a href="#about" className='nav-links'>About Us</a></li>

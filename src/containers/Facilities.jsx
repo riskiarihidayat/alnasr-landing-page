@@ -9,7 +9,7 @@ import { BiSolidInjection } from "react-icons/bi"
 
 const Facilities = () => {
   return (
-    <section className='section-padding mb-36 md:mb-[180px]'>
+    <section id='facilities' className='section-padding mb-36 md:mb-[180px]'>
       <div className='text-center mb-[50px]'>
         <h1 className='section-title'>Facilities We Provide For You </h1>
         <p className='section-description'>We provide comfort for our customers, with the various facilities we provide that we provide</p>
